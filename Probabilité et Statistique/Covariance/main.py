@@ -10,5 +10,4 @@ Ex = sum(x*p for x,p in zip(X,P))
 Ey = sum(y*p for y,p in zip(Y,P))
 
 covariance = sum((x-Ex)*(y-Ey)*p for x,y,p in zip(X,Y,P))
-
 print(covariance)
