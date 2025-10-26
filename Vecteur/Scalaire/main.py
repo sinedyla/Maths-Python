@@ -1,8 +1,9 @@
 from numpy import *
 
-a = -4
+reel = -4
+
 u = array([1,2,3])
 
-scalaire = a * u
+scalaire = reel * u
 
 print(scalaire)
